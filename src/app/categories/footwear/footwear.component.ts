@@ -1,0 +1,20 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-footwear',
+  template: `
+    <p>
+      footwear works!
+    </p>
+  `,
+  styles: [
+  ]
+})
+export class FootwearComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+}
