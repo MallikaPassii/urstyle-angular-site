@@ -5,8 +5,8 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <div class="navbar">
       <div class="navbar-brand">
-        <a class="navbar-item logo">
-          <img src="assets/image/icon.png" routerLink="/" />UrStyle
+        <a class="navbar-item logo" routerLink="/">
+          <img src="/assets/image/favicon.png" routerLink="/" />UrStyle
         </a>
       </div>
       <div class="navbar-menu">
@@ -20,7 +20,24 @@ import { Component, OnInit } from '@angular/core';
 
     
   `,
-  styles: [
+  styles: [`
+    .navbar{
+      background: #A0566E;
+    }
+    .logo{
+      font-family: monospace;
+      font-size: 24px;
+      color: rgba(240,206,206);
+    }
+    .logo:hover{
+      color: #f7d9e8;
+    }
+    .navbar-menu .navbar-item{
+      color: rgba(240,206,206);
+      font-family: monospace;
+      font-size: 24px;
+    }
+  `
   ]
 })
 export class HeaderComponent implements OnInit {
