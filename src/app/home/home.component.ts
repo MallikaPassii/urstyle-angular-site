@@ -128,7 +128,8 @@ import { Component, OnInit } from '@angular/core';
       font-family: monospace;
     }
     marquee{
-      color: #4dd2ff;
+      color: #c2effe;
+      -webkit-text-stroke: 1px #4dd2ff;
     }
     .tile.is-ancestor{
       padding: 40px 0px;

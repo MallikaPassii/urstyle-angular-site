@@ -9,78 +9,78 @@ import { Component, OnInit } from '@angular/core';
       <div class="tile is-ancestor">
           <div class="tile is-parent">
             <article class="tile is-child box">
-              <img src="/assets/image/tshirt_giphy.gif" title="Tshirt - Orange">
-              <h5 class="title is-5 has-text-centered">Orange T-shirt</h5>
+              <a routerLink="/categories/Pink T-shirt"><img src="/assets/image/tshirt1.jpg" title="Tshirt - Pink">
+              <h5 class="title is-5 has-text-centered">Pink T-shirt</h5></a>
             </article>
           </div>
           <div class="tile is-parent">
             <article class="tile is-child box">
-              <img src="/assets/image/tshirt2.gif" title="Tshirt - 2">
-              <h5 class="title is-5 has-text-centered">Blue T-shirt</h5>
+              <img src="/assets/image/tshirt2.jpg" title="Tshirt - Black">
+              <h5 class="title is-5 has-text-centered">Black T-shirt</h5>
             </article>
           </div>
           <div class="tile is-parent">
             <article class="tile is-child box">
-              <img src="/assets/image/tshirt_giphy.gif" title="Tshirt - Orange">
-              <h5 class="title is-5 has-text-centered">Orange T-shirt</h5>
+              <img src="/assets/image/tshirt3.jpg" title="Tshirt - Grey">
+              <h5 class="title is-5 has-text-centered">Grey T-shirt</h5>
             </article>
           </div>
           <div class="tile is-parent">
             <article class="tile is-child box">
-              <img src="/assets/image/tshirt2.gif" title="Tshirt - 2">
-              <h5 class="title is-5 has-text-centered">Blue T-shirt</h5>
-            </article>
-          </div>
-        </div>
-        <div class="tile is-ancestor">
-        <div class="tile is-parent">
-          <article class="tile is-child box">
-            <img src="/assets/image/tshirt2.gif" title="Tshirt - 2">
-            <h5 class="title is-5 has-text-centered">Blue T-shirt</h5>
-          </article>
-        </div>
-        <div class="tile is-parent">
-          <article class="tile is-child box">
-            <img src="/assets/image/tshirt_giphy.gif" title="Tshirt - Orange">
-            <h5 class="title is-5 has-text-centered">Orange T-shirt</h5>
-          </article>
-        </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <img src="/assets/image/tshirt2.gif" title="Tshirt - 2">
-              <h5 class="title is-5 has-text-centered">Blue T-shirt</h5>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <img src="/assets/image/tshirt_giphy.gif" title="Tshirt - Orange">
-              <h5 class="title is-5 has-text-centered">Orange T-shirt</h5>
+              <img src="/assets/image/tshirt1.jpg" title="Tshirt - Pink">
+              <h5 class="title is-5 has-text-centered">Pink T-shirt</h5>
             </article>
           </div>
         </div>
         <div class="tile is-ancestor">
         <div class="tile is-parent">
           <article class="tile is-child box">
-            <img src="/assets/image/tshirt2.gif" title="Tshirt - 2">
-            <h5 class="title is-5 has-text-centered">Blue T-shirt</h5>
+            <img src="/assets/image/tshirt2.jpg" title="Tshirt - Black">
+            <h5 class="title is-5 has-text-centered">Black T-shirt</h5>
           </article>
         </div>
         <div class="tile is-parent">
           <article class="tile is-child box">
-            <img src="/assets/image/tshirt_giphy.gif" title="Tshirt - Orange">
-            <h5 class="title is-5 has-text-centered">Orange T-shirt</h5>
+            <img src="/assets/image/tshirt3.jpg" title="Tshirt - Grey">
+            <h5 class="title is-5 has-text-centered">Grey T-shirt</h5>
           </article>
         </div>
           <div class="tile is-parent">
             <article class="tile is-child box">
-              <img src="/assets/image/tshirt2.gif" title="Tshirt - 2">
-              <h5 class="title is-5 has-text-centered">Blue T-shirt</h5>
+              <img src="/assets/image/tshirt1.jpg" title="Tshirt - Pink">
+              <h5 class="title is-5 has-text-centered">Pink T-shirt</h5>
             </article>
           </div>
           <div class="tile is-parent">
             <article class="tile is-child box">
-              <img src="/assets/image/tshirt_giphy.gif" title="Tshirt - Orange">
-              <h5 class="title is-5 has-text-centered">Orange T-shirt</h5>
+              <img src="/assets/image/tshirt2.jpg" title="Tshirt - Black">
+              <h5 class="title is-5 has-text-centered">Black T-shirt</h5>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <img src="/assets/image/tshirt3.jpg" title="Tshirt - Grey">
+            <h5 class="title is-5 has-text-centered">Grey T-shirt</h5>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <img src="/assets/image/tshirt1.jpg" title="Tshirt - Pink">
+            <h5 class="title is-5 has-text-centered">Pink T-shirt</h5>
+          </article>
+        </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <img src="/assets/image/tshirt2.jpg" title="Tshirt - Black">
+              <h5 class="title is-5 has-text-centered">Black T-shirt</h5>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <img src="/assets/image/tshirt3.jpg" title="Tshirt - Grey">
+              <h5 class="title is-5 has-text-centered">Grey T-shirt</h5>
             </article>
           </div>
         </div>

@@ -35,14 +35,44 @@ import { Component, OnInit } from '@angular/core';
               Your message is required!
             </div>
           </div>
-          <button type="submit" class="button is-large is-warning" [disabled]="contactForm.invalid">
+          <button type="submit" class="button is-large" [disabled]="contactForm.invalid">
             Send
           </button>
         </form>
       </div>
     </section>
+    <div class="modal" [ngClass]="{'is-active': formComplete}">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        Thank You!
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
   `,
-  styles: [
+  styles: [`
+    .modal-content{
+      height: 100px;
+      vertical-align: middle;
+      background: #fff;
+      border-color: #A0566E;
+      border-radius: 10px;
+      font-size: 30px;
+      text-align: center;
+      color: pink;
+      padding: 32px;
+    }
+    .button.is-large{
+      color: #A0566E;
+      border: 1px solid #A0566E; 
+    }
+    .hero.is-primary.is-bold{
+      background: rgb(246,210,210);
+      background: linear-gradient(141deg, rgba(246,210,210,1) 0%, rgba(194,239,254,1) 100%);
+    }
+    .hero .title{
+      color: #A0566E;
+    }
+  `
   ]
 })
 export class ContactComponent implements OnInit {
@@ -50,6 +80,7 @@ export class ContactComponent implements OnInit {
   name: string;
   email: string;
   message: string;
+  formComplete = false;
 
   constructor() { }
 
@@ -58,9 +89,7 @@ export class ContactComponent implements OnInit {
   }
 
   submitForm() {
-
-    const message = `My name is ${this.name}`;
-    alert(message);
+    this.formComplete = true;
   }
 
 }

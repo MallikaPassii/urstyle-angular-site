@@ -4,6 +4,7 @@ import { FootwearComponent } from './footwear/footwear.component';
 import { FragrancesComponent } from './fragrances/fragrances.component';
 import { MenComponent } from './men/men.component';
 import { WomenComponent } from './women/women.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 
 const routes: Routes = [
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: 'women',
     component: WomenComponent
+  },
+  {
+    path: ':productname',
+    component: ProductDetailsComponent
   }
 ];
 

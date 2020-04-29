@@ -37,6 +37,9 @@ import { Component, OnInit } from '@angular/core';
       font-family: monospace;
       font-size: 24px;
     }
+    .navbar-brand a:hover, .navbar-brand a:visited{
+      color: rgba(240,206,206);
+    }
   `
   ]
 })
